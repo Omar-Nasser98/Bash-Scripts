@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# x & y are global variables
+x=10
+y=20
+
+sum(){
+	sum=$(($x+$y))
+	echo "Global variable addition is: $sum"
+}
+
+sum
+
+sub(){
+	local a=20
+	local b=10
+	local sub=$(($a-$b))
+	echo "Local Variable Subtraction is: $sub"
+}
+
+sub

@@ -1,0 +1,26 @@
+#!/bin/bash
+
+declare -A colours
+
+#add key value pairs
+colours['apple']=red
+colours['banana']=yellow
+colours['orange']=orange
+colours['guava']=green
+colours['cherry']=red
+
+echo "Size of dict: ${#colours[@]}"
+echo "Color of apple: ${colours['apple']}"
+echo "All dict keys: ${!colours[@]}"
+echo "All dict values: ${colours[@]}"
+
+#Delete cherry key
+echo "Deleting cherry.... "
+unset colours['cherry']
+echo "New dict: ${colours[@]}"
+
+for value in ${!colours[@]}
+do
+	echo $value
+done
+

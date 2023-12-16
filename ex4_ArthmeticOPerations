@@ -1,0 +1,21 @@
+#!/bin/bash
+
+#This is Example of all Arthmetic Operations
+echo "Enter 1st number: "
+read n1
+
+echo "Enter 2nd number: "
+read n2
+
+echo "first number is $n1, second number is $n2"
+
+echo "Sum of two numbers: "$(( $n1+$n2 )) #Addition
+
+echo "Subtract two numbers: " $(($n1-$n2)) #Subtraction
+
+echo "Multiply two numbers: " $(($n1*$n2)) #Multiply
+
+echo "Divide two numbers: " $(($n1/$n2)) #Divide
+
+echo "Modulus of two numbers: "$(($n1%$n2)) #Modulus
+

@@ -1,0 +1,13 @@
+#!/bin/bash
+
+count=1
+
+while true
+do 
+  echo "count is $count"
+  count=$(($count+1))
+  if [[ $count -ge 5 ]]; then
+	  echo "break statement reached"
+	  break
+  fi
+done

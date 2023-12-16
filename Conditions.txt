@@ -1,0 +1,25 @@
+Conditions
+-- [[-z STRING]] - Empty string
+-- [[-n STRING]] - Not empty string
+-- [[STRING == STRING]] - Equal
+-- [[STRING != STRING]] - Not equal
+-- [[NUM -eq NUM]] - Equal
+-- [[NUM -ne NUM]] - Not Equal
+-- [[NUM -lt NUM]] - Less than
+-- [[NUM -le NUM]] - Lessthan or Equal
+-- [[NUM -gt NUM]] - Greater than
+-- [[NUM -ge Num]] - Greater than or Equal
+-- [[ ! EXPR ]] - NOT
+-- [[ X && Y ]] - AND
+-- [[ X || Y ]] - OR
+
+File Conditions:
+-- [[-e FILE]] - Exists
+-- [[-r FILE]] - Readable
+-- [[-h FILE]] - Symbolic link
+-- [[-d FILE]] - Directory
+-- [[-w FILE]] - Writable file
+-- [[-s FILE]] - File size is > 0 bytes
+-- [[-f FILE]] - File
+-- [[-X FILE]] - Executable file
+

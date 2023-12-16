@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# Read input from user, save it to username variable and print it
+
+echo "Please enter username"
+read username
+echo $username
+
+
+read -p "Please enter your age:" age
+echo $age
+
+read -sp "Enter password: " password
+echo ""
+
+echo $password
+
+
+echo "Enter the user name: "
+read 
+echo "Read without variable name assignment: "$REPLY

@@ -1,0 +1,16 @@
+#!/bin/bash
+
+#Declare an array of fruits
+fruits=("apple" "banana" "orange" "guava")
+
+#Print the entire array
+echo "All fruits using @ symbol: ${fruits[@]} "
+
+echo "All fruits using * symbol: ${fruits[*]}"
+
+#Print 3rd element of the array
+echo "Third element of the array is: ${fruits[2]}"
+
+#Print length of array
+echo "Number of fruits: ${#fruits[@]}"
+

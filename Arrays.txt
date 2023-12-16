@@ -1,0 +1,9 @@
+${ArrayVarName[@]} - Displays all the values of array.
+
+${#ArrayVarName[@]} - Displays the lenght of the array.
+
+${ArrayVarName[0]} - Displays first element of the array.
+
+${ArrayVarName[-1]} - Displays last element of the array.
+
+unset ArrayVarName[2] - Deletes the 2 element of the array.
